@@ -1,0 +1,26 @@
+﻿@model Proyecto_LaboratorioJARAF.Models.USUARIO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<link rel="stylesheet" href="~/Content/Login.css" />
+
+<body class="VLogin">
+    <div class="login">      
+         <h4 class="texto">INICIAR SESION</h4>
+
+        @using (Html.BeginForm("Create", "Login", FormMethod.Post))
+         {
+            <label>Usuario</label>
+            <br />
+            @Html.TextBoxFor(a => a.Usuario1)
+            <br /><br />
+            <label>Contraseña</label>
+            <br />
+            @Html.TextBoxFor(a => a.Contraseña)
+            <br /><br />
+            <input type="submit" value="Aceptar" class="env"/>
+         }
+    </div>  
+</body>

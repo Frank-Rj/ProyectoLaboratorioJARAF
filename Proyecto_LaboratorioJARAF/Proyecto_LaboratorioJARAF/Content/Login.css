@@ -1,0 +1,36 @@
+﻿.VLogin {
+    margin: 0;
+    padding: 0;
+    background-image:url('Estilo CSS HTML/fondo-L.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto {
+    color: gray;
+}
+
+.env{
+    color: gray;
+}
+
+.login {
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    font-family: 'Book Antiqua';
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+input {
+    color: black;
+    text-align: center;
+}

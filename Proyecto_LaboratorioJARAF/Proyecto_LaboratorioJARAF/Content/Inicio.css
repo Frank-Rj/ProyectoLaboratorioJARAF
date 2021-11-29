@@ -1,0 +1,39 @@
+﻿.inicio {
+    background-image: linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4 )), url('Estilo CSS HTML/woman-working-in-laborator.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+}
+
+.botones {
+    height: 50px;
+    width: 150px;
+    border-radius: 25%;    
+    background-color:#6ad7db;
+    font-family:'Lucida Bright';
+}
+
+.cards {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+#img-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+}
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
