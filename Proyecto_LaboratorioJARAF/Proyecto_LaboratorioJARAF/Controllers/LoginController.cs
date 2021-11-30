@@ -10,8 +10,6 @@ namespace Proyecto_LaboratorioJARAF.Controllers
 {
     public class LoginController : Controller
     {
-        ClsRLogin clsrlogin = new ClsRLogin();
-
         // Login
         [HttpGet]
         public ActionResult Create()
@@ -26,20 +24,40 @@ namespace Proyecto_LaboratorioJARAF.Controllers
             {
                 return RedirectToAction("Error");
             }
+            else if(usuario.Usuario1 == "Rocio" & usuario.Contraseña == "Jas")
+            {
+                return RedirectToAction("Inicio");
+            }
+            else if (usuario.Usuario1 == "Adamaris" & usuario.Contraseña == "Yan")
+            {
+                return RedirectToAction("Inicio");
+            }
+            else if (usuario.Usuario1 == "Jose" & usuario.Contraseña == "Fran")
+            {
+                return RedirectToAction("Inicio");
+            }
+            else if (usuario.Usuario1 == "Franklin" & usuario.Contraseña == "Noe")
+            {
+                return RedirectToAction("Inicio");
+            }
+            else if (usuario.Usuario1 == "Anderson" & usuario.Contraseña == "stan")
+            {
+                return RedirectToAction("Inicio");
+            }
             else
             {
-                clsrlogin.Create(usuario);
-
-                return RedirectToAction("Inicio");
+                return RedirectToAction("Error");
             }
         }
 
+        // Error
         [HttpGet]
         public ActionResult Error()
         {
             return View();
         }
 
+        // Inicio
         public ActionResult Inicio()
         {
             return View();

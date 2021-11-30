@@ -166,11 +166,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ClsExamenes.cs" />
     <Compile Include="Repository\ClsRCita.cs" />
-    <Compile Include="Repository\ClsRLogin.cs" />
     <Compile Include="Repository\ClsRPaciente.cs" />
     <Compile Include="Service\ICitas.cs" />
     <Compile Include="Service\IExamenes.cs" />
-    <Compile Include="Service\ILogin.cs" />
     <Compile Include="Service\IPaciente.cs" />
   </ItemGroup>
   <ItemGroup>
